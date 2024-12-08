@@ -66,3 +66,4 @@ frequency = calculate_frequency(letter_count)
 # Выводим частоту букв в столбик
 for letter, freq in frequency.items():
     print(f"{letter}: {format(freq, '.2f')}")
+
